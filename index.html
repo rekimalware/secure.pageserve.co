@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subdomain Takeover PoC - Lain</title>
+    <style>
+        body {
+            background-color: black;
+            color: #00ff00;
+            font-family: monospace;
+            text-align: center;
+            padding-top: 50px;
+        }
+        img {
+            margin: 20px auto;
+            border: 2px solid #00ff00;
+            max-width: 80%;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 0 0 10px #00ff00;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .glitch {
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { opacity: 1; transform: skew(0deg); }
+            2% { opacity: 0.8; transform: skew(2deg); }
+            4% { opacity: 1; transform: skew(0deg); }
+            100% { opacity: 1; transform: skew(0deg); }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="glitch">$( Subdomain Takeover )_</h1>
+    <img src="https://i.gifer.com/fetch/.../lain.gif" alt="Lain GIF" onerror="this.onerror=null; this.src='https://media.tenor.com/g0G-j2hvnWkAAAAM/serial-experiments-lain-lain.gif';">
+    <p>This domain, <strong>be.bullish.com</strong>, is vulnerable to takeover.</p>
+    <p>PoC by: <strong>[haibanemalware]</strong></p>
+    <p>Date: 2026-02-19</p>
+    <p style="color: #888;">"Present day, present time... hax0red"</p>
+</body>
+</html>
